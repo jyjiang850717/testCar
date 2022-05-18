@@ -35,7 +35,6 @@ public abstract class Car implements Vehicle {
 			this.energyCurrent+=1;
 			Thread.sleep(1);
 		}
-		System.out.println(VehicleConstant.FILL_ENERGY);
 	}
 
 	@Override
